@@ -1,0 +1,75 @@
+.works {
+    .latest-works {
+        padding-bottom: $section-padding;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $black;
+        h2 {
+           text-transform: uppercase;
+           padding-bottom: $primary-margin;
+        }
+        li {
+            font-family: $secondary-font;
+            display: inline;
+            margin-left: $primary-margin;
+            a {
+                text-decoration: none;
+                color: $black;
+            }
+            a:visited {
+                color: $black
+            }
+            a:hover {
+                color: #c00a0a;
+            }
+        }
+    }
+    .pictures {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        .work-img {
+            position: relative;
+            width: 360px;
+            height: 330px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            .branding-buttom {
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: $red100;
+                transition: opacity .3s;
+                color: $white;
+                p, a {
+                    font-family: $secondary-font;
+                    font-size: 20px;
+                }
+                p {
+                    margin-top: -20px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #c43d2a;
+                    background-color: rgb(241, 241, 241);
+                    padding:  0.3rem 1.1rem;
+                }
+            }
+        }
+        .branding-buttom:hover {
+            opacity: 1;
+            transition: opacity .3s;
+        }
+    }
+}

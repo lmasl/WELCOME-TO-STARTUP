@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="menuToggle" class="d-none">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Services</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Works</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Clients</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+
+        <div class="container flat-menu">
+            <a class="logo" href="index.html" title="Home">
+                <img src="./img/Logo.png" alt="Startup">
+            </a>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#" class="active-nav-item">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container promo">
+            <h1>Welcome to startup</h1>
+            <p>Your Favourite Creative Agence Template</p>
+            <a class="promo-button" href="#">GET STARTED</a>
+        </div>
+    </header>
+
+
+    <section class="services">
+        <div class="container">
+            <div class="services-intro">
+                <h4 class="underlined-header">Services</h4>
+                <p>We offer ipsum dolor sit amet con setetur sadipscing elitr
+                    amet</p>
+            </div>
+            <div class="services-list row">
+                <div class="service col-4 col-sm-12">
+                    <img src="img/ellipse-1.png" alt="badge">
+                    <h4>CLEAN TYPOCRAPHY</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <div class="service col-4 col-sm-12">
+                    <img src="img/FA-icon.png" alt="badge">
+                    <h4>ROCK SOLID CODE</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <div class="service col-4 col-sm-12">
+                    <img src="img/ellipse-3.png" alt="badge">
+                    <h4>EXPERT SUPPORT</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="container">
+            <div class="about__info">
+                <h2 class="underlined-header">About us</h2>
+                <p class="about__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit amet</p>
+            </div>
+            <div class="about__desc row">
+                <p class="col-6 col-sm-12">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Magnam, pariatur rerum placeat fugit inventore alias
+                    expedita iure quisquam et veniam obcaecati tenetur, sint
+                    esse ratione sit commodi quibusdam repudiandae. Quia.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Magnam, pariatur rerum placeat fugit inventore alias
+                    expedita iure quisquam et veniam obcaecati tenetur, sint
+                </p>
+                <p class="col-6 col-sm-12">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Magnam, pariatur rerum placeat fugit inventore alias
+                    expedita iure quisquam et veniam obcaecati tenetur, sint
+                    esse ratione sit commodi quibusdam repudiandae. Quia.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Magnam, pariatur rerum placeat fugit inventore alias
+                    expedita iure quisquam et veniam obcaecati tenetur, sint
+                </p>
+            </div>
+            <div class="about__slider">
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-1.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">MD KHALIL UDON</h3>
+                    <p class="about__slide-text">Head of ideas</p>
+                </div>
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-2.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">RUDEL MIAH</h3>
+                    <p class="about__slide-text">Lead WordPress Developer</p>
+                </div>
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-3.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">SHAMIM MIA</h3>
+                    <p class="about__slide-text">Sr. Web Deweloper</p>
+                </div>
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-4.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">JOHN DOE</h3>
+                    <p class="about__slide-text">Front-end developer</p>
+                </div>
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-2.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">RUDEL MIAH</h3>
+                    <p class="about__slide-text">Lead WordPress Developer</p>
+                </div>
+                <div class="about__slide">
+                    <div class="icon-container">
+                        <img class="about__pic" src="img/man-3.jpg">
+                        <ul class="about__icon">
+                            <li><a href="#"><img src="img/fb-logo.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                            <li><a href="#"><img src="img/twi.png" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/google-plus-logo.png" alt="google-plus"></a></li>
+                        </ul>
+                    </div>
+                    <h3 class="about__slide-name">SHAMIM MIA</h3>
+                    <p class="about__slide-text">Sr. Web Deweloper</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="works">
+        <div class="container">
+            <div class="latest-works">
+                <h2 class="underlined-header">Latest Works</h2>
+                <nav class="work-navigation">
+                    <ul>
+                        <li><a class="active" href="#">All</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Strategy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="pictures">
+                <div class="work-img"><img src="img/work-1.jpg" alt="girl">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW > </a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-2.jpg" alt="dove">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-3.jpg" alt="planner">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-4.jpg" alt="camera">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-5.jpg" alt="bicycle">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/nooteboock.jpg" alt="nooteboock">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-7.jpg" alt="glasses">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-8.jpg" alt="sheet">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+                <div class="work-img"><img src="img/work-9.jpg" alt="table">
+                    <div class="branding-buttom">
+                        <h4>Hair Dresser</h4>
+                        <p>Branding</p>
+                        <a class="picture-button" href="#">VIEW ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="perallax">
+        <div class="container">
+            <div class="content">
+                <p>Do you like OUR WORK so far?</p>
+                <p> Let's talk about YOUR PROJECT!</p>
+            </div>
+            <div class="pr-button">
+                <a class="perallax-button" href="#">GET IN TOUCH</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-blog">
+        <div class="container">
+            <div class="blog__info">
+                <h2 class="about__title">Recent blog posts</h2>
+                <p class="about__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit amet</p>
+            </div>
+            <div class="blog-1 row">
+                <div class="desk col-6 col-sm-12"> <img src="img/read-more-1.jpg" alt="desk"></div>
+                <div class="blog-content col-6 col-sm-12">
+                    <div class="desk-content">
+                        <div class="blog-1-data">
+                            <img src="img/data.png" alt="data">
+                        </div>
+                        <div class="blog-1-data-text">
+                            <h4> <a href="#">Startup ideas needs to be funded </a></h4>
+                            <p>By <a href="#">Khalil</a> Uddin in <a href="#">Development</a> </p>
+                        </div>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Magnam, pariatur rerum placeat fugit inventore alias
+                        expedita iure quisquam et veniam obcaecati tenetur, sint
+                        esse ratione sit commodi quibusdam repudiandae. Quia.
+                    </p>
+                    <h4><a href="#">Read more</a></h4>
+                </div>
+
+            </div>
+            <div class="blog-2 row">
+                <div class="table col-6 col-sm-12"> <img src="img/read-more-2.jpg" alt="table"></div>
+                <div class="blog-content col-6 col-sm-12">
+                    <div class="table-content">
+                        <div class="blog-2-data">
+                            <img src="img/data.png" alt="data">
+                        </div>
+                        <div class="blog-2-data-text">
+                            <h4><a href="#">Startup ideas needs to be funded </a> </h4>
+                            <p>By <a href="#">Khalil</a> Uddin in <a href="#"> Development</a> </p>
+                        </div>
+                    </div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Magnam, pariatur rerum placeat fugit inventore alias
+                        expedita iure quisquam et veniam obcaecati tenetur, sint
+                        esse ratione sit commodi quibusdam repudiandae. Quia.
+                    </p>
+                    <h4><a href="#">Read more</a></h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-clients">
+        <div class="clients">
+            <div class="logo"><img src="img/logo-1.png" alt="logo"></div>
+            <div class="logo"><img src="img/logo-2.png" alt="logo"></div>
+            <div class="logo"><img src="img/logo-3.png" alt="logo"></div>
+            <div class="logo"><img src="img/logo-4.png" alt="logo"></div>
+            <div class="logo"><img src="img/logo-5.png" alt="logo"></div>
+        </div>
+        <div class="carousel">
+            <ul class="slides">
+                <input type="radio" name="radio-buttons" id="slide-1" checked />
+                <li class="slide-container">
+                    <div class="slide-content">
+                        <p class="comment__slide">Hvaing placeat facere possimus, omnis voluptas assumenda est,
+                            oomnis voluptas assumenda.<br>
+                            Temporibus autem quibusdam et aut officcis debitis aut rerum.</p>
+                        <p class="comment__slide-name">John Doe, Google inc.</p>
+                    </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="slide-2" />
+                <li class="slide-container">
+                    <div class="slide-content">
+                        <p class="comment__slide">“Of course it is happening inside your head,<br>
+                            Harry, but why on earth should that mean that it is not real?”</p>
+                        <p class="comment__slide-name"> J.K. Rowling, Harry Potter and the Deathly Hallows</p>
+                    </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="slide-3" />
+                <li class="slide-container">
+                    <div class="slide-content">
+                        <p class="comment__slide">“Live as if you were to die tomorrow. Learn as if you were to live
+                            forever.”</p>
+                        <p class="comment__slide-name">Mahatma Gandhi</p>
+                    </div>
+                </li>
+                <div class="carousel-dots">
+                    <label for="slide-1" class="carousel-dot" id="slide-dot-1"></label>
+                    <label for="slide-2" class="carousel-dot" id="slide-dot-2"></label>
+                    <label for="slide-3" class="carousel-dot" id="slide-dot-3"></label>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__info">
+                <h2 class="fb__title underlined-header">Get in touch</h2>
+                <p class="fb__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit amet</p>
+            </div>
+            <div class="feedback__contacts row">
+                <div class="contacts col-4 col-sm-12">
+                    <div class="contact">
+                        <img src="img/geo.png" alt="geolocation">
+                        <h5>ADDRESS</h5>
+                        <p>312, 7th Ave, New York <br>
+                            NY 101200, United States of America </p>
+                    </div>
+                    <div class="contact">
+                        <img src="img/pfon.png" alt="phon">
+                        <h5>HOTLINE(24x7)</h5>
+                        <p>+65 0052 300,+65 88251 210
+                                <br>+88 01723 511 340 </p>
+                    </div>
+                    <div class="contact">
+                        <img class="e-mail" src="img/mail.png" alt="e-mail">
+                        <h5>E-MAIL</h5>
+                        <p>shapedtheme@gmail.com <br>
+                            khalilkode@gmail.com </p>
+                    </div>
+                </div>
+                <div class="form-for-clients col-7 col-sm-12">
+                    <form action="" method="post" class="d-flex flex-column">
+                        <div class="row">
+                            <input name="name" type="text" class="mr-auto" placeholder="YOUR NAME" required>
+                            <input name="email" type="email" placeholder="YOUR E-MAIL"
+                                required>
+                        </div>
+                        <div class="row">
+                            <input name="subject" type="text" placeholder="YOUR SUBJECT"
+                                required>
+                            <input name="company-name" type="text" class="ml-auto" placeholder="COMPANY NAME"
+                                required>
+                        </div>
+                        <textarea class="col-12 row" name="message" rows="6" class="form-control" placeholder="WRITE YOUR MESSAGE"
+                                required></textarea>
+                        <div class="col-12 row p-0">
+                            <button type="submit" id="form-submit" class="submit-btn">SEND MESSAGE</button>
+                            <p class="submit-caption">* We’ll contact you as as possible. We don’t reply on Monday.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="main-icon">
+                <div class="foother-icon"><img src="img/twi-1-foother.png" alt="twitter"></div>
+                <div class="foother-icon"><img src="img/twi-foother.png" alt="twitter"></div>
+                <div class="foother-icon"><img src="img/twi-foother.png" alt="twitter"></div>
+                <div class="foother-icon"><img src="img/twi-foother.png" alt="twitter"></div>
+            </div>
+            <p>© 2015 Startup, Designed by ShapedTheme</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
